@@ -3,7 +3,7 @@ const Search = ({searchTerm,setSearchTerm}) => {
 return(
 <div className='search'>
     <div>
-        <img src='./search.png' alt='search-icon'/>
+        <img src='src\assets\search.png' alt='search-icon'/>
         <input 
         type='text'
         placeholder='search through thousands of movies...'
