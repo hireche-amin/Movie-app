@@ -8,7 +8,7 @@ const MoviesCard = ({movie:{title, vote_average, poster_path, release_date, orig
 </div>
 <div className="content">
 <div className="rating">
-    <img src="src\assets\star.png" alt="Star Icon"/>
+    <img src="\star.png" alt="Star Icon"/>
     <p> {vote_average ? vote_average.toFixed(1): 'N/A'}</p>
     <span>•</span>
     <p className="lang">{original_language}</p>
